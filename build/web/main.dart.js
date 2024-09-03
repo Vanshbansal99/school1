@@ -68772,8 +68772,8 @@ dV(a,b){var s=this.a,r=J.c0(s)
 if(b?r.E(s,a):r.A(s,a))this.ao()}}
 A.hm.prototype={
 M(a){var s=null,r=A.OS(A.J(255,203,206,185),A.aT("Robotics kit",A.aW(s,s,B.j,s,s,s,s,s,s,s,s,40,s,s,B.I,s,s,!0,s,s,s,s,s,s,s,s),s)),q=A.J(255,203,206,185),p=t.E
-q=A.RB(A.cg(s,A.VT(A.b([A.RG(A.he(A.hr("images/awadhlogo.png",s),s,s)),new A.bQ(new A.SM(),s),new A.bQ(new A.SN(),s),new A.bQ(new A.SO(),s)],p)),B.o,q,s,s,s,s,s,s,s,s,s))
-return A.W5(!1,A.ZV(r,A.iO(B.bg,A.b([A.cg(s,s,B.o,s,s,new A.cs(s,A.ju(new A.nR(A.J(B.c.ae(127.5),0,0,0),B.e0),B.bH,new A.e5("images/robobg.png",s,s)),s,s,s,s,B.a6),s,s,s,s,s,s,s),new A.tD(s)],p),B.cF),q))}}
+q=A.RB(A.cg(s,A.VT(A.b([A.RG(A.he(A.hr("assets/images/awadhlogo.png",s),s,s)),new A.bQ(new A.SM(),s),new A.bQ(new A.SN(),s),new A.bQ(new A.SO(),s)],p)),B.o,q,s,s,s,s,s,s,s,s,s))
+return A.W5(!1,A.ZV(r,A.iO(B.bg,A.b([A.cg(s,s,B.o,s,s,new A.cs(s,A.ju(new A.nR(A.J(B.c.ae(127.5),0,0,0),B.e0),B.bH,new A.e5("assets/images/robobg.png",s,s)),s,s,s,s,B.a6),s,s,s,s,s,s,s),new A.tD(s)],p),B.cF),q))}}
 A.SM.prototype={
 $1(a){var s=null
 return A.fc(s,s,s,!0,A.f5(B.eu,s),s,new A.SL(a),s,A.aT("Home",A.aW(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),s,s)},
@@ -68815,7 +68815,7 @@ A.Ji.prototype={
 M(a){var s,r,q,p,o,n,m,l=null,k=A.bH(a,l,t.w).w.a.a,j=A.J(255,203,206,185),i=B.c.ae(127.5)
 j=j.a
 j=A.J(i,j>>>16&255,j>>>8&255,j&255)
-j=A.i8(A.hr("images/robokit.png",B.fU),j,l,l,l)
+j=A.i8(A.hr("assets/images/robokit.png",B.fU),j,l,l,l)
 s=A.J(255,203,206,185).a
 s=A.J(i,s>>>16&255,s>>>8&255,s&255)
 s=A.i8(new A.bc(new A.a7(8,16,8,16),A.aT("Our robotic kit offers students an exciting gateway into the world of robotics and embedded systems.Centered around Bluetooth-based robots, this comprehensive package includes various sensors andmodules, enabling hands-on exploration of key concepts like object detection, motor control, and wirelesscommunication.\nStudents can build and program their own robots, applying STEM principles to create everythingfrom autonomous vehicles to smart irrigation systems. This kit teaches valuable technical skills and alsonurtures creativity and problem-solving abilities, preparing young minds for the technological challengesof tomorrow",A.aW(l,l,l,l,l,l,l,l,l,l,l,25,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l),l),s,l,l,l)
@@ -68931,8 +68931,8 @@ p=p.a
 p=A.OS(A.J(o,p>>>16&255,p>>>8&255,p&255),A.aT("Sensor Craft_IoT Fusion",A.aW(q,q,B.j,q,q,q,q,q,q,q,q,40,q,q,B.I,q,q,!0,q,q,q,q,q,q,q,q),q))
 s=A.J(255,203,206,185)
 r=t.E
-s=A.RB(A.cg(q,A.VT(A.b([A.RG(A.he(A.hr("images/awadhlogo.png",q),q,q)),new A.bQ(new A.T0(),q),new A.bQ(new A.T1(),q),new A.bQ(new A.T2(),q)],r)),B.o,s,q,q,q,q,q,q,q,q,q))
-return A.W5(!1,A.ZV(p,A.iO(B.bg,A.b([A.cg(q,q,B.o,q,q,new A.cs(q,A.ju(new A.nR(A.J(o,0,0,0),B.e0),B.bH,new A.e5("images/bg1.jpg",q,q)),q,q,q,q,B.a6),q,q,q,q,q,q,q),new A.tC(q)],r),B.cF),s))}}
+s=A.RB(A.cg(q,A.VT(A.b([A.RG(A.he(A.hr("assets/images/awadhlogo.png",q),q,q)),new A.bQ(new A.T0(),q),new A.bQ(new A.T1(),q),new A.bQ(new A.T2(),q)],r)),B.o,s,q,q,q,q,q,q,q,q,q))
+return A.W5(!1,A.ZV(p,A.iO(B.bg,A.b([A.cg(q,q,B.o,q,q,new A.cs(q,A.ju(new A.nR(A.J(o,0,0,0),B.e0),B.bH,new A.e5("assets/images/bg1.jpg",q,q)),q,q,q,q,B.a6),q,q,q,q,q,q,q),new A.tC(q)],r),B.cF),s))}}
 A.T0.prototype={
 $1(a){var s=null
 return A.fc(s,s,s,!0,A.f5(B.eu,s),s,new A.T_(a),s,A.aT("Home",A.aW(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),s,s)},
@@ -68969,14 +68969,14 @@ $1(a){return new A.hm(null)},
 $S:42}
 A.tC.prototype={
 am(){var s=t.N
-return new A.Jh(A.b([A.ae(["image","images/acc.png","description","Accelerometer","details",u.D],s,s),A.ae(["image","images/step.png","description","Step Counting:","details",u.X],s,s),A.ae(["image","images/speed.png","description","Speed","details",u.Y],s,s),A.ae(["image","images/distance.png","description","Distance","details",u.L],s,s)],t.m0),B.l)}}
+return new A.Jh(A.b([A.ae(["image","assets/images/acc.png","description","Accelerometer","details",u.D],s,s),A.ae(["image","assets/images/step.png","description","Step Counting:","details",u.X],s,s),A.ae(["image","assets/images/speed.png","description","Speed","details",u.Y],s,s),A.ae(["image","assets/images/distance.png","description","Distance","details",u.L],s,s)],t.m0),B.l)}}
 A.Jh.prototype={
 M(a){var s,r,q,p,o,n,m,l,k=null
 A.bH(a,k,t.w).toString
-s=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("images/img2.png",k,k)),k,k,k,k,B.a6),k,300,k,k,k,k,300),k,k)
+s=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("assets/images/img2.png",k,k)),k,k,k,k,B.a6),k,300,k,k,k,k,300),k,k)
 r=A.aT(u.i,A.aW(k,k,B.j,k,k,k,k,k,k,k,k,20,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
 q=A.aT("Mobile Interface",A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
-p=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("images/mobile2.png",k,k)),k,k,k,k,B.a6),k,280,k,k,k,k,450),k,k)
+p=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("assets/images/mobile2.png",k,k)),k,k,k,k,B.a6),k,280,k,k,k,k,450),k,k)
 o=A.aT("Applications",A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
 n=A.ab8(new A.wa(4,8,8,1.5),new A.a5s(this),4,new A.a7(8,8,8,8),new A.ow(k),!0)
 m=A.aT(u.g,A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
@@ -69016,8 +69016,8 @@ p=p.a
 p=A.OS(A.J(o,p>>>16&255,p>>>8&255,p&255),A.aT("Sensor Craft_IoT Fusion",A.aW(q,q,B.j,q,q,q,q,q,q,q,q,40,q,q,B.I,q,q,!0,q,q,q,q,q,q,q,q),q))
 s=A.J(255,203,206,185)
 r=t.E
-s=A.RB(A.cg(q,A.VT(A.b([A.RG(A.he(A.hr("images/awadhlogo.png",q),q,q)),new A.bQ(new A.T3(),q),new A.bQ(new A.T4(),q),new A.bQ(new A.T5(),q)],r)),B.o,s,q,q,q,q,q,q,q,q,q))
-return A.W5(!1,A.ZV(p,A.iO(B.bg,A.b([A.cg(q,q,B.o,q,q,new A.cs(q,A.ju(new A.nR(A.J(o,0,0,0),B.e0),B.bH,new A.e5("images/bg1.jpg",q,q)),q,q,q,q,B.a6),q,q,q,q,q,q,q),new A.tE(q)],r),B.cF),s))}}
+s=A.RB(A.cg(q,A.VT(A.b([A.RG(A.he(A.hr("assets/images/awadhlogo.png",q),q,q)),new A.bQ(new A.T3(),q),new A.bQ(new A.T4(),q),new A.bQ(new A.T5(),q)],r)),B.o,s,q,q,q,q,q,q,q,q,q))
+return A.W5(!1,A.ZV(p,A.iO(B.bg,A.b([A.cg(q,q,B.o,q,q,new A.cs(q,A.ju(new A.nR(A.J(o,0,0,0),B.e0),B.bH,new A.e5("assets/images/bg1.jpg",q,q)),q,q,q,q,B.a6),q,q,q,q,q,q,q),new A.tE(q)],r),B.cF),s))}}
 A.T3.prototype={
 $1(a){var s=null
 return A.fc(s,s,s,!0,A.f5(B.eu,s),s,new A.SY(a),s,A.aT("Home",A.aW(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),s,s)},
@@ -69054,14 +69054,14 @@ $1(a){return new A.hm(null)},
 $S:42}
 A.tE.prototype={
 am(){var s=t.N
-return new A.Jj(A.b([A.ae(["image","images/acc.png","description","Accelerometer","details",u.D],s,s),A.ae(["image","images/step.png","description","Step Counting:","details",u.X],s,s),A.ae(["image","images/speed.png","description","Speed","details",u.Y],s,s),A.ae(["image","images/distance.png","description","Distance","details",u.L],s,s)],t.m0),B.l)}}
+return new A.Jj(A.b([A.ae(["image","assets/images/acc.png","description","Accelerometer","details",u.D],s,s),A.ae(["image","assets/images/step.png","description","Step Counting:","details",u.X],s,s),A.ae(["image","assets/images/speed.png","description","Speed","details",u.Y],s,s),A.ae(["image","assets/images/distance.png","description","Distance","details",u.L],s,s)],t.m0),B.l)}}
 A.Jj.prototype={
 M(a){var s,r,q,p,o,n,m,l,k=null
 A.bH(a,k,t.w).toString
-s=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("images/img2.png",k,k)),k,k,k,k,B.a6),k,300,k,k,k,k,300),k,k)
+s=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("assets/images/img2.png",k,k)),k,k,k,k,B.a6),k,300,k,k,k,k,300),k,k)
 r=A.aT(u.i,A.aW(k,k,B.j,k,k,k,k,k,k,k,k,20,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
 q=A.aT("Mobile Interface",A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
-p=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("images/mobile2.png",k,k)),k,k,k,k,B.a6),k,280,k,k,k,k,450),k,k)
+p=A.he(A.cg(k,k,B.o,k,k,new A.cs(k,A.ju(k,B.e1,new A.e5("assets/images/mobile2.png",k,k)),k,k,k,k,B.a6),k,280,k,k,k,k,450),k,k)
 o=A.aT("Applications",A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
 n=A.ab8(new A.wa(4,8,8,1.5),new A.a5u(this),4,new A.a7(8,8,8,8),new A.ow(k),!0)
 m=A.aT(u.g,A.aW(k,k,k,k,k,k,k,k,k,k,k,36,k,k,B.I,k,k,!0,k,k,k,k,k,k,k,k),k)
