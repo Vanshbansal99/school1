@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               children: [
                 DrawerHeader(
                   child: Center(
-                    child: Image.asset("images/awadhlogo.png"),
+                    child: Image.asset("assets/images/awadhlogo.png"),
                   ),
                 ),
                 Builder(
@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           decoration: BoxDecoration(
   image: DecorationImage(
-    image: AssetImage('images/img1.jpeg'), // Replace with your image asset
+    image: AssetImage('assets/images/img1.jpeg'), // Replace with your image asset
     fit: BoxFit.cover, // This will cover the entire background
     colorFilter: ColorFilter.mode(
       Colors.black.withOpacity(0.5), // Adjust the opacity here
@@ -124,7 +124,7 @@ class MyApp extends StatelessWidget {
                       height: 250,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('images/Awadh.PNG'),
+                          image: AssetImage('assets/images/Awadh.PNG'),
                           fit: BoxFit.contain,
                         ),
                       ),

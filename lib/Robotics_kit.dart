@@ -121,103 +121,103 @@ class _ImageGridState extends State<ImageGrid> {
   
   final List<Map<String, String>> images = [
     {
-      'image': 'images/micro2.png',
+      'image': 'assets/images/micro2.png',
       'description': 'Arduino Nano Expansion Kit',
       'details':
           'This Arduino Nano Expansion Kit is a versatile and powerful platform designed to simplify the process of building various school-level projects. The kit is tailored to provide seamless integration with the Arduino Nano microcontroller, making it an ideal choice for students and educators who are looking to explore robotics, automation, and sensor-based projects.\nDirect Arduino Nano Integration: The board is designed to allow the Arduino Nano to be mounted directly on top, providing a compact and organized setup. This makes it easy to connect and manage all components without the need for complex wiring.\nMultiple Ultrasonic Sensor Ports: Equipped with 4 dedicated ports for ultrasonic sensors, the kit enables students to connect up to four sensors simultaneously. This is particularly useful for projects involving obstacle detection, distance measurement etc.\nOn-Board DC Motor Driver: The kit includes an on-board DC motor driver with two motor ports, allowing for direct control of two DC motors. This feature is perfect for building motorized projects such as robotic cars.\nServo Motor Connectivity: With 4 servo motor pins available, the kit supports the connection of up to four servo motors at one time. This enables the creation of projects that require precise control of multiple servos, such as robotic arms or automated systems.\nBuilt-In Buzzer : An on-board buzzer is included, providing an easy way to add audio feedback or alarms to your projects. This can be utilized in security systems, timers, or notification devices.\nLCD Display Connector: The board features a direct connector for an LCD display, making it straightforward to add visual output to your projects. This is useful for displaying data, status messages, or interactive menus.\nAdditional Accessible Pins: Numerous additional pins are available on the board for connecting other components and sensors. This flexibility allows students to expand their projects further, integrating various sensors and actuators as needed.\nThis kit is an excellent educational tool, enabling students to dive into the world of electronics and programming with ease. Its user-friendly design and comprehensive feature set make it ideal for creating a wide range of Arduino-based projects, from simple experiments to more complex robotic systems. By providing direct connectivity for multiple components, the kit reduces the need for complicated wiring and allows students to focus on learning key concepts in STEM education.',
     },
     {
-      'image': 'images/2.png',
+      'image': 'assets/images/2.png',
       'description': 'Arduino Nano',
       'details':
           'Arduino Nano is a small, compatible open-source electronic developmentboard based on an 8-bit AVR microcontroller. Two versions of this board are available, one is based on ATmega328p, and the other on Atmega168.\nArduino Nano  can perform some functions similar to other boardsavailable in the market, however, it is smaller in size and is a right match forprojects requiring less memory space and fewer GPIO pins to connect with.',
     },
     {
-      'image': 'images/DC_motor2.png',
+      'image': 'assets/images/DC_motor2.png',
       'description': 'DC Motor',
       'details':
           'The 12v DC motor used in the car base of the project is a crucial component for wheel movement. This small electric motor converts electrical energy into mechanical energy, providing controlled rotational motion. When connected to the wheels, it allows for precise and adjustable movement of the car,enabling students to explore concepts of motion, speed control, and basic robotics in their projects.',
     },
     {
-      'image': 'images/16x2_LCD2.png',
+      'image': 'assets/images/16x2_LCD2.png',
       'description': '16x2 LCD',
       'details':
           'The term  LCD stands for liquid crystal display . It is one kind of electronic display module used in an extensive range of applications like various circuits &amp; devices like mobile phones, calculators, computers, TV sets, etc.',
     },
     {
-      'image': 'images/Wheel1.png',
+      'image': 'assets/images/Wheel1.png',
       'description': 'Base wheel',
       'details':
           'The base wheels are essential components of the robotic kit, providing mobility and control. These wheels typically made of durable plastic, are designed to attach securely to the DC motors. They offer good traction and smooth rotation, allowing the robot to move efficiently on various surfaces.',
     },
     {
-      'image': 'images/Car_Chassis2.png',
+      'image': 'assets/images/Car_Chassis2.png',
       'description': 'Metal chassis',
       'details':
           'A 3-Wheel metal chassis is the structural component for the robot which contains the drive train and allow the robot to be mobile by using wheels.',
     },
      {
-      'image': 'images/12v_Battery2.png',
+      'image': 'assets/images/12v_Battery2.png',
       'description': 'Battery',
       'details':
           'The DC power supply battery is the primary energy source for the robotickit. It provides a stable, direct current (DC) electrical power to run the motors,sensors, and microcontroller. Typically rechargeable, this battery allows forportable operation of the robot without the need for constant connection to a power outlet. Its compact size and reliable power output enable students to create mobile, autonomous projects while learning about energy management and electrical systems in practical applications.',
     },
     {
-      'image': 'images/USB_Cable___Jumper_wire2.png',
+      'image': 'assets/images/USB_Cable___Jumper_wire2.png',
       'description': 'Jumper wires and USB cable',
       'details':
           'These flexible, insulated wires with pins at each end allow for easyconnections between components on a board or to other devices. They come in various lengths and colors, enabling students to create neat, organized circuits and easily trace connections in their projects.\nUSB Cable: The USB (Universal Serial Bus) cable serves dual purposes in the kit. It provides power to the microcontroller or other components, and also enables data transfer between the device and a computer.',
     },
     {
-      'image': 'images/Ultrasonic_Sensor_Module2.png',
+      'image': 'assets/images/Ultrasonic_Sensor_Module2.png',
       'description': 'Ultrasonic Sensor',
       'details':
           'The HC-SR04 ultrasonic sensor is an electronic device that calculates distance by emitting sound waves and collecting their echoes.It can measure objects from up to 4.5 meters away. There are total 4 pins in this sensor, vcc for power supply of +5v, Gnd for common ground, Triggerpin to start the sensor, Eco pin to receive the signal.',
     },
     {
-      'image': 'images/Bluetooth_module2.png',
+      'image': 'assets/images/Bluetooth_module2.png',
       'description': 'Bluetooth Module',
       'details':
           'HC-05 Bluetooth module in this project is a key component for wireless communication. It enables the robotic device to connect and communicate with smartphones or computers over short distances. This module allows for real-time data transmission, remote control of the robot, and seamless integration with mobile apps.',
     },
     {
-      'image': 'images/IR_Sensor_module2.png',
+      'image': 'assets/images/IR_Sensor_module2.png',
       'description': 'IR Sensor',
       'details':
           'The IR (Infrared) Sensor is used for detecting objects and measuring distances. It works by emitting infrared light and detecting its reflection from nearby objects. This sensor enables robots to avoid obstacles and interact with their environment.',
     },
     {
-      'image': 'images/Raindrop_Sensor_module2.png',
+      'image': 'assets/images/Raindrop_Sensor_module2.png',
       'description': 'Raindrop Sensor Module',
       'details':
           'Raindrop Sensor is a tool used for sensing rain. It consists of two modules, a rain board that detects the rain and a control module, which compares the analog value, and converts it to a digital value.It has 4 pins namely, VCC to connect supply voltage of 5V, Gnd for common ground, D0 Digital pin to get digital output, A0 Analog pin to get analog output.',
     },
     {
-      'image': 'images/Water_level_Sensor_module2.png',
+      'image': 'assets/images/Water_level_Sensor_module2.png',
       'description': 'Water Level Sensor',
       'details':
           'The water level sensor is a device that measures the liquid level in a fixed container that is too high or too low. When the liquid level is detected, the sensor converts the sensed data into an electrical signal. It works on the Operating voltage of DC 3-5V and Operating temperature range of 10℃-30℃',
     },
     {
-      'image': 'images/Water_pump_with_pipe2.png',
+      'image': 'assets/images/Water_pump_with_pipe2.png',
       'description': 'Mini 5v DC Water Pump',
       'details':
           'The Arduino Mini 5V DC Water Pump is a compact and efficient device designed to control water flow in various small-scale projects. This pump operates on a 5V DC power supply, which makes it easily compatible with Arduino boards and other microcontrollers.',
     },
     {
-      'image': 'images/Hall_effect_sensor_module2.png',
+      'image': 'assets/images/Hall_effect_sensor_module2.png',
       'description': 'Hall effect sensor module',
       'details':
           'The Hall Effect sensor module is a magnetic field detector used in the robotic kit. It utilizes the Hall Effect principle to sense the presence and strength of magnetic fields. This sensor can detect nearby magnets or measure magnetic fields.',
     },
      {
-      'image': 'images/GPS_Sensor_module2.png',
+      'image': 'assets/images/GPS_Sensor_module2.png',
       'description': 'GPS Sensor Module',
       'details':
           'The Global Positioning System (GPS) sensor module in the kit is a compact device that receives signals from global positioning satellites to determine precise location coordinates. It provides accurate data on latitude, longitude, altitude, and time. ',
     },
      {
-      'image': 'images/sg.png',
+      'image': 'assets/images/sg.png',
       'description': 'SG90 Servo Motor',
       'details':
           'The SG90 is a type of micro servo motor commonly used in robotics and model applications. It is designed to operate within a voltage range of 4.8V to 6V and  has an operating angle of approximately 180 degree, which means it can rotate between 0 degrees and 180 degrees. ',
