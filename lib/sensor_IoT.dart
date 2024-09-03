@@ -30,7 +30,7 @@ class FirsttPage extends StatelessWidget {
               children: [
                 DrawerHeader(
                   child: Center(
-                    child: Image.asset("awadhlogo.png"),
+                    child: Image.asset("images/awadhlogo.png"),
                   ),
                 ),
                 Builder(
@@ -96,7 +96,7 @@ class FirsttPage extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
   image: DecorationImage(
-    image: AssetImage('bg1.jpg'), // Replace with your image asset
+    image: AssetImage('images/bg1.jpg'), // Replace with your image asset
     fit: BoxFit.cover, // This will cover the entire background
     colorFilter: ColorFilter.mode(
       Colors.black.withOpacity(0.5), // Adjust the opacity here
@@ -120,25 +120,25 @@ class _ImageGridState extends State<ImageGrid> {
   
   final List<Map<String, String>> images = [
     {
-      'image': 'acc.png',
+      'image': 'images/acc.png',
       'description': 'Accelerometer',
       'details':
           'An accelerometer is an electronic sensor that measures the acceleration forces acting on an object. These forces can be due to gravity or the movement of the object itself. By detecting these forces, an accelerometer can determine the orientation, tilt, and motion of the object it is attached to.\nKey Features:\n• 3-Axis Measurement: Most modern accelerometers can measure acceleration along three axes (X, Y, and Z), providing a comprehensive understanding of movement in any direction.\n• Sensitivity: Accelerometers can detect minute changes in motion, making them highly sensitive to even small movements.\n• Compact Size: They are typically small and lightweight, which allows them to be integrated into a wide range of devices and applications.',
     },
     {
-      'image': 'step.png',
+      'image': 'images/step.png',
       'description': 'Step Counting:',
       'details':
           'Step counting using accelerometers is a technology-driven method to measure physical activity, particularly walking or running steps. Accelerometers are sensors that detect changes in acceleration forces, allowing devices to determine movement patterns.\nThis application is designed to count steps by monitoring accelerometer data, calculating movement vectors, and determining when a step occurs based on a set threshold. The integration with Bluetooth allows for easy data transmission, while flash memory ensures step data is retained even after a power cycle.\nCharacteristics of Human Steps:\n1. Periodic Motion: Walking or running typically generates periodic acceleration changes.\n2. Distinct Acceleration Peaks: Each step causes a significant change in acceleration, creating detectable peaks in the accelerometer data.\n3. Three-Dimensional Motion: Steps involve movement in all three axes (x, y, z), which is captured by the accelerometer.',
     },
     {
-      'image': 'speed.png',
+      'image': 'images/speed.png',
       'description': 'Speed',
       'details':
           'Measuring speed using an accelerometer involves tracking changes in velocity over time by integrating the acceleration data. Since speed is the rate of change of position, and acceleration is the rate of change of velocity, an accelerometer can be used to estimate speed by performing a series of calculations.\nBasic Principle:\n• Acceleration to Velocity: The accelerometer measures acceleration, which is the change in velocity over time. By integrating the acceleration data (calculating the area under the acceleration-time curve), you can determine the change in velocity.\n• Velocity to Speed: Since speed is the magnitude of velocity, you can calculate speed by finding the magnitude of the velocity vector obtained from the accelerometer data.\nUsing an accelerometer to measure speed teaches students important concepts in physics and mathematics, such as integration and vector analysis. It also provides hands-on experience with sensor data processing and introduces challenges like noise reduction and calibration. This makes it a valuable exercise in both theoretical and practical aspects of STEM education.',
     },
     {
-      'image': 'distance.png',
+      'image': 'images/distance.png',
       'description': 'Distance',
       'details':
           'Measuring distance using an accelerometer involves a series of calculations based on the acceleration data collected over time. The process requires integrating the acceleration data twice to first obtain velocity and then to determine the distance traveled.\nBasic Principle:\n Acceleration to Velocity: The accelerometer measures acceleration (change in velocity). By integrating this data over time, you can calculate the velocity of the object.\n• Velocity to Distance: By integrating the velocity data over time, you can estimate the distance traveled.\nUsing an accelerometer to measure distance helps to understand the relationship between acceleration, velocity, and displacement. It also introduces the concepts like integration, noise reduction, and data filtering, which are critical in fields like physics, engineering, and data science. This hands-on approach enhances learning by applying theoretical knowledge to real-world scenarios.',
@@ -160,7 +160,7 @@ class _ImageGridState extends State<ImageGrid> {
                         width: 300,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('img2.png'),
+                            image: AssetImage('images/img2.png'),
                             fit: BoxFit.fill,
                           ),
                         ),),
@@ -267,7 +267,7 @@ class _ImageGridState extends State<ImageGrid> {
                         width: 450,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('mobile2.png'),
+                            image: AssetImage('images/mobile2.png'),
                             fit: BoxFit.fill,
                           ),
                         ),),
