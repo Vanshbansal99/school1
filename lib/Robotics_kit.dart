@@ -31,7 +31,7 @@ class FirstPage extends StatelessWidget {
               children: [
                 DrawerHeader(
                   child: Center(
-                    child: Image.asset("images/awadhlogo.png"),
+                    child: Image.asset("assets/images/awadhlogo.png"),
                   ),
                 ),
                 Builder(
@@ -97,7 +97,7 @@ class FirstPage extends StatelessWidget {
           Container(
              decoration: BoxDecoration(
   image: DecorationImage(
-    image: AssetImage('images/robobg.png'), // Replace with your image asset
+    image: AssetImage('assets/images/robobg.png'), // Replace with your image asset
     fit: BoxFit.cover, // This will cover the entire background
     colorFilter: ColorFilter.mode(
       Colors.black.withOpacity(0.5), // Adjust the opacity here
@@ -312,7 +312,7 @@ class _ImageGridState extends State<ImageGrid> {
           alignment: Alignment.center,
           child: Card(
             color: Color.fromARGB(255, 203, 206, 185).withOpacity(0.5) ,
-            child: Image.asset('images/robokit.png',
+            child: Image.asset('assets/images/robokit.png',
             fit:BoxFit.contain ,),
           ),
         ),
